@@ -123,7 +123,7 @@ _checkPaths() {
 _checkUpstreamRepo() {
     remoteIsExist $UPSTREAM_REMOTE || addUpstream
     editLastMessage "Fetching Data From UPSTREAM_REPO ..."
-    fetchUpstream || updateUpstream && fetchUpstream || quit "Invalid UPSTREAM_REPO var !"
+    fetchUpstream || updateUpstream && fetchUpstream || 
     fetchBranches
     updateBuffer
 }
