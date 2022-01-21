@@ -9,7 +9,9 @@ google-api-python-client>=1.12.8
 google-auth-httplib2>=0.0.4
 google-auth-oauthlib>=0.4.2
 git+https://github.com/Joeclinton1/google-images-download@patch-1
+#google_images_download
 googletrans==3.1.0a0
+#google_trans_new>=1.1.9
 hachoir>=3.1.1
 heroku3>=4.2.3
 html-telegraph-poster>=0.2.31
@@ -29,6 +31,7 @@ pytz>=2020.4
 rarfile>=4.0
 removebg>=0.4
 requests>=2.25.0
+#scikit-image
 search-engine-parser
 selenium==3.141.0
 setuptools>=60.0.4
@@ -41,9 +44,7 @@ urbandict>=0.5
 vcsi
 wget>=3.2
 wikipedia>=1.4.0
-youtube_dl
 git+https://github.com/Nekos-life/Async-nekos.life-wrapper
 ruamel.yaml==0.17.17
 ujson>=4.0.1
-youtube-search-python==1.5.1
 feedparser>=6.0.2
